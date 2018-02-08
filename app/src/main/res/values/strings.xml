@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Rxjava_helloworld</string>
+
+    <string name="button_run_scheduler">Run Schedulers Example</string>
+</resources>
