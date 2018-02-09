@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "me.paixao.rxjava_helloworld"
+        applicationId "me.paixao.rxjava"
         minSdkVersion 23
         targetSdkVersion 26
         versionCode 1

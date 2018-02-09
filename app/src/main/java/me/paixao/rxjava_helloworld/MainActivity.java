@@ -52,7 +52,7 @@ public class MainActivity extends BaseActivity {
         return Observable.defer(new Callable<ObservableSource<? extends String>>() {
             @Override public ObservableSource<? extends String> call() throws Exception {
                 // Do some long running operation
-                SystemClock.sleep(5000);
+                SystemClock.sleep(1000);
                 return Observable.just("one", "two", "three", "four", "five");
             }
         });
